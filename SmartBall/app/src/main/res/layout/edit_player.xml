@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+
+    <EditText
+        android:id="@+id/playerFoot"
+        android:layout_width="200dp"
+        android:layout_height="46dp"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="150dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:hint="Oyuncu Hangi Ayak"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@+id/playerPosition"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerAge" />
+
+    <EditText
+        android:id="@+id/playerPosition"
+        android:layout_width="200dp"
+        android:layout_height="46dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="110dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:hint="Oyuncunun Pozisyonu"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@+id/AddPlayer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerFoot" />
+
+    <EditText
+        android:id="@+id/playerAge"
+        android:layout_width="200dp"
+        android:layout_height="46dp"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="150dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:hint="Oyuncunun Yaşı"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PlayerImage" />
+
+    <EditText
+        android:id="@+id/playerName"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:hint="Oyuncunun Adı"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/PlayerImage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/playerSurname"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:hint="Oyuncunun soyadı"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/PlayerImage"
+        app:layout_constraintTop_toBottomOf="@+id/playerName" />
+
+    <ImageView
+        android:id="@+id/PlayerImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/user" />
+
+
+    <Button
+        android:id="@+id/PlayerDelete"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:text="OYUNCUYU SİL"
+        app:layout_constraintBottom_toTopOf="@+id/LastPage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/LastPage"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:text="GERİ DÖN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/EditPlayer"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:text="DEĞİŞİKLİKLERİ KAYDET"
+        app:layout_constraintBottom_toTopOf="@+id/PlayerDelete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
