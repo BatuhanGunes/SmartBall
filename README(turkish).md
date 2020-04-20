@@ -30,7 +30,7 @@ Projeyi çalıştırabilmek için proje dosyalarının bir kopyasını yerel mak
 
 Projeyi çalıştırabilmek için ilk olarak [Android Studio](https://developer.android.com/studio) adresinden sisteminize uygun IDE yazılımının herhangi bir sürümünü edinerek yerel makinenize kurun. Daha sonra yerel makinenize indirdiğiniz android yazılım için olan dosyaları bu ortamda açın. Gerekli ayarlamarı yaptıktan sonra uygulamanın apk uzantısını elde edin. Bu dosyayı android yazılıma sahip bir cihaza yükleyin.
 
-Arduino için gerekli malzemeleri edinin ve devreyi oluşturun. Arduino-pc bağlantısını gerçekleştirerek işlemciye arduino yazılımı yükleyin. Çalışır durumda olan devre ile uygulama arasında bluetooth bağlantısını oluşturun. uygulamayı kullanmak için yeni bir oyuncu oluşturun. Sistemi test etmek için oluşturulan oyuncu ile antremana başlayın. Bir top yardımıyla sistemi test edin.
+Arduino için gerekli malzemeleri edinin ve devreyi oluşturun. Arduino için [Arduino IDE](https://www.arduino.cc/en/main/software) adresinden sisteminize uygun IDE yazılımının herhangi bir sürümünü edinerek yerel makinenize kurun. Arduino-pc bağlantısını gerçekleştirerek işlemciye arduino yazılımı arduino IDE ile yükleyin. Çalışır durumda olan devre ile uygulama arasında bluetooth bağlantısını oluşturun. uygulamayı kullanmak için yeni bir oyuncu oluşturun. Sistemi test etmek için oluşturulan oyuncu ile antremana başlayın. Bir top yardımıyla sistemi test edin.
 
 ## Yazarlar
 
